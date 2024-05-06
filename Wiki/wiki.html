@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Html Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Html Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Brief_history">Brief history</a></li>
+            <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+            <li><a class="nav-link" href="#Key_resources_Html">Key resources Html</a></li>
+            <li><a class="nav-link" href="#Content_categories">Content categories</a></li>
+            <li><a class="nav-link" href="#Beginner's_tutorials">Beginner's tutorials</a></li>
+            <li><a class="nav-link" href="#Structuring_the_web_with_HTML">Structuring the web with HTML</a></li>
+            <li><a class="nav-link" href="#Prerequisites">Prerequisites</a></li>
+            <li><a class="nav-link" href="#Css_basics">Css basics</a></li>
+            <li><a class="nav-link" href="#JavaScript_basics">JavaScript basics</a></li>
+            <li><a class="nav-link" href="#Solving_common_HTML_problems">Solving common HTML problems</a></li>
+            <li><a class="nav-link" href="#See_also">See also</a></li>
+            <li><a class="nav-link" href="#Input_types">Input types</a></li>
+            <li><a class="nav-link" href="#Reference">Reference</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>
+                    <strong>HTML </strong>
+                    (HyperText Markup Language) is the most basic building block of the Web. 
+                    It defines the meaning and structure of web content. Other technologies besides 
+                    HTML are generally used to describe a web page's appearance/presentation (
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+                    ) or functionality/behavior (
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a> ).
+                </p>
+                <p>
+                   "Hypertext" refers to links that connect web pages to one another, 
+                   either within a single website or between websites. Links are a fundamental aspect of the Web. 
+                   By uploading content to the Internet and linking it to pages created by other people, 
+                   you become an active participant in the World Wide Web.
+                </p>   
+            </article>
+        </section>
+        <section class="main-section" id="Brief_history">
+            <header>Brief history</header>
+            <article>
+            <p>
+                In 1990, as part of his vision of the Web, Tim Berners-Lee defined the concept of hypertext, 
+                which Berners-Lee formalized the following year through a markup mainly based on SGML. 
+                The IETF began formally specifying HTML in 1993, and after several drafts released version 2.0 in 1995. 
+                In 1994 Berners-Lee founded the W3C to develop the Web. In 1996, the W3C took over the HTML work and published the HTML 
+                3.2 recommendation a year later. HTML 4.0 was released in 1999 and became an ISO standard in 2000.
+            </p>
+            <p>
+                At that time, the W3C nearly abandoned HTML in favor of XHTML, prompting the founding of an independent group called WHATWG in 2004. 
+                Thanks to WHATWG, work on HTML continued: the two organizations released the first draft of HTML5 in 2008 and an official standard in 2014. 
+                The term "HTML5" is just a buzzword referring to modern web technologies which are part of the HTML Living Standard.
+            </p>
+        </article>
+        </section>
+        <section class="main-section" id="What_you_should_already_know">
+            <header>What you should already know</header>
+            <article>
+                <p>
+                    HTML uses "markup" to annotate text, images, and other content for display in a Web browser. 
+                    HTML markup includes special "elements" such as 
+                    <ul>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head"><code>head</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title"><code>title</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body"><code>body</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header"><code>header</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer"><code>footer</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article"><code>article</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section"><code>section</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>p</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div"><code>div</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span"><code>span</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"><code>img</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside"><code>aside</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"><code>audio</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas"><code>canvas</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist"><code>datalist</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details"><code>details</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed"><code>embed</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav"><code>nav</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output"><code>output</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress"><code>progress</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video"><code>video</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul"><code>ul</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol"><code>ol</code></a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li"><code>li</code></a>
+                        </li>
+                    </ul>
+                    and many others.
+                </p>
+                <p>
+                    An HTML element is set off from other text in a document by "tags", 
+                    which consist of the element name surrounded by "
+                    < " and " > ". The name of an element inside a tag is case insensitive. 
+                    That is, it can be written in uppercase, lowercase, or a mixture. 
+                </p>
+             
+            </article>
+        </section>
+        <section class="main-section" id="Key_resources_Html">
+            <header>Key resources Html</header>
+            <p>
+
+                HTML Introduction
+                <ul>
+                    If you're new to web development, be sure to read our <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML Basics</a> 
+                    article to learn what HTML is and how to use it.
+                </ul>
+        
+            </p>
+            <p>
+
+                HTML Tutorials
+                <ul>
+                    For articles about how to use HTML, as well as tutorials and complete examples, check out our <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">HTML Learning Area.</a> 
+                </ul>
+        
+            </p>
+            <p>
+
+                HTML Reference
+                <ul>
+                    In our extensive <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">HTML reference</a> section, you'll find the details about every element and attribute in HTML.
+                </ul>
+
+        
+            </p>
+        </section>
+        <section class="main-section" id="Content_categories">
+            <header>Content categories</header>
+            <article>
+            <p>
+                Most HTML elements are a member of one or more <strong>content categories</strong> — these categories group elements 
+                that share common characteristics. This is a loose grouping (it doesn't actually create a relationship among 
+                elements of these categories), but they help define and describe the categories' shared behavior and their associated rules, 
+                especially when you come upon their intricate details. It's also possible for elements to not be a member of any of these categories.
+            </p>
+
+            <p>
+                There are three types of content categories:
+                <ul>
+                    <li>
+                        Main content categories, which describe common rules shared by many elements.
+                    </li>
+                    <li>
+                        Form-related content categories, which describe rules common to form-related elements.
+                    </li>
+                    <li>
+                        Specific content categories, which describe rare categories shared only by a few elements, sometimes only in a specific context.
+                    </li>
+                </ul>
+            </p>
+        </article>
+        </section>
+        <section class="main-section" id="Beginner's_tutorials">
+            <header>Beginner's tutorials</header>
+            <article>
+                Our <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">HTML Learning Area</a> features multiple modules that teach HTML from the ground up — no previous knowledge required.
+                <p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">Introduction to HTML</a>
+                    <ul>
+                        This module sets the stage, getting you used to important concepts and syntax such as looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a web page.
+                    </ul>
+                </p>
+                <p>
+                   <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding">Multimedia and embedding</a> 
+                    <ul>
+                        This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire other webpages.
+                    </ul>   
+                </p>
+                <p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables">HTML tables</a>
+                    <ul>
+                        Representing tabular data on a webpage in an understandable, accessible way can be a challenge. This module covers basic table markup, along with more complex features such as implementing captions and summaries.
+                    </ul>       
+                </p>
+                <p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn/Forms">HTML forms</a>
+                    <ul>
+                        Forms are a very important part of the Web — these provide much of the functionality you need for interacting with websites, e.g. 
+                        registering and logging in, sending feedback, buying products, and more. This module gets you started with creating the client-side/front-end parts of forms.
+                    </ul>
+                </p>
+                <p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto">Use HTML to solve common problems</a>
+                    <ul>
+                        Provides links to sections of content explaining how to use HTML to solve very common problems when creating a web page: dealing with titles, adding images or videos, 
+                        emphasizing content, creating a basic form, etc.
+                    </ul>
+                </p>
+            </article>
+        </section>
+        <section calss="main-section" id="Structuring_the_web_with_HTML">
+            <header>Structuring the web with HTML</header>
+            <article>
+                <p>
+                    
+                To build websites, you should know about HTML — the fundamental technology used to define the structure of a webpage. 
+                HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, 
+                form, or one of many other available elements or even a new element that you define.
+        
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Prerequisites">
+            <header>Prerequisites</header>
+            <article>
+            <p>
+                
+            Before starting this topic, you should have at least basic familiarity with using 
+            computers and using the web passively (i.e. just looking at it, consuming the content). 
+            You should have a basic work environment set up as detailed in 
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software">Installing basic software</a>
+            , and understand how to create and manage files, as detailed in 
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">Dealing with files</a> 
+            — both are parts of our 
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web">Getting started with the web</a>
+             complete beginner's module.
+          
+            </p>
+            <p>
+
+            It is recommended that you work through Getting started with the web before attempting this topic. 
+            However, this isn't absolutely necessary; much of what is covered in the 
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML basics</a> 
+            article is also covered in our Introduction to HTML module, albeit in a lot more detail.
+            </p>
+            <p>
+                After learning HTML, you can then move on to learning about more advanced topics such as:
+                <ul>
+                    <li>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">CSS</a>
+                        , and how to use it to style HTML (for example alter your text size and fonts used, 
+                        add borders and drop shadows, layout your page with multiple columns, add animations and other visual effects).
+                    </li>
+                    <li>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">JavaScript</a>
+                        , and how to use it to add dynamic functionality to web pages (for example find your location and plot it on a map, 
+                        make UI elements appear/disappear when you toggle a button, save users' data locally on their computers, and much more).
+                    </li>
+                </ul>
+            </p>
+        </article>
+        </section>
+        <section class="main-section" id="Css_basics">
+            <header>Css basics</header>
+            <article>
+                
+                CSS (Cascading Style Sheets) is the code that styles web content. 
+                CSS basics walks through what you need to get started. We'll answer questions like: 
+                How do I make text red? How do I make content display at a certain location in the (webpage) layout? 
+                How do I decorate my webpage with background images and colors?
+
+                <p>
+                    Like HTML, CSS is not a programming language. It's not a markup language either. 
+                    <strong>CSS is a style sheet language.</strong> CSS is what you use to selectively style HTML elements. 
+                    For example, this CSS selects paragraph text, setting the color to red:
+
+                </p>
+            <code>p {
+                    color: red;
+                  }
+            </code>
+
+            Let's try it out! Using a text editor, paste the three lines of CSS (above) into a new file. 
+            Save the file as style.css in a directory named styles.
+          
+            </article>
+        </section>
+        <section class="main-section" id="JavaScript_basics">
+            <header>JavaScript basics</header>
+            <article>
+            <p>
+
+            JavaScript is a programming language that adds interactivity to your website. 
+            This happens in games, in the behavior of responses when buttons are pressed or with data entry on forms; 
+            with dynamic styling; with animation, etc. This article helps you get started with JavaScript and furthers your understanding of what is possible.
+          
+            </p>
+            <p>
+                
+            <a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript">JavaScript</a> is a powerful 
+            programming language that can add interactivity to a website. 
+            It was invented by Brendan Eich.
+          
+            </p>
+            <p>
+
+            JavaScript is versatile and beginner-friendly. With more experience, you'll be able to create games, 
+            animated 2D and 3D graphics, comprehensive database-driven apps, and much more!
+          
+            </p>
+            <p>
+            JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, 
+            unlocking a vast amount of functionality with minimum effort. These include:
+
+            <ul>
+                <li>
+                    Browser Application Programming Interfaces (<a href="https://developer.mozilla.org/en-US/docs/Glossary/API">APIs</a>) 
+                    built into web browsers, providing functionality such as dynamically creating 
+                    HTML and setting CSS styles; collecting and manipulating a video stream from a user's webcam, or generating 3D graphics and audio samples.
+                </li>
+                <li>
+                    Third-party APIs that allow developers to incorporate functionality in sites from other content providers, such as Twitter or Facebook.
+                </li>
+                <li>
+                    Third-party frameworks and libraries that you can apply to HTML to accelerate the work of building sites and applications
+                </li>
+            </ul>
+            It's outside the scope of this article—as a light introduction to JavaScript—to present the details of how the core JavaScript language is different from the tools listed above. 
+            You can learn more in MDN's <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">JavaScript learning area</a>, as well as in other parts of MDN.
+            </p>
+        </article>
+        </section>
+        <section class="main-section" id="Solving_common_HTML_problems">
+            <header>Solving common HTML problems</header>
+            <article>
+                <p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto">Use HTML to solve common problems</a> 
+                    provides links to sections of content explaining how to use HTML to solve very common 
+                    problems when creating a webpage: dealing with titles, adding images or videos, emphasizing content, creating a basic form, etc.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="See_also">
+            <header>See also</header>
+            <article>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/Forms">Web forms</a>
+                <p>
+                    This module provides a series of articles that will help you master the essentials of web forms. 
+                    Web forms are a very powerful tool for interacting with users — most commonly they are used for collecting data from users, 
+                    or allowing them to control a user interface. However, for historical and technical reasons it's not always obvious how to use them to their full potential. 
+                    We'll cover all the essential aspects of Web forms including marking up their HTML structure, styling form controls, validating form data, and submitting data to the server.
+                </p>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML (HyperText Markup Language) on MDN</a> 
+                <p>
+                    The main entry point for HTML reference documentation on MDN, including detailed element and attribute references — 
+                    if you want to know what attributes an element has or what values an attribute has, for example, this is a great place to start.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Input_types">
+            <header>Input types</header>
+            <article>
+            he input HTML element is used to create interactive controls for web-based forms in order to accept data from the user; 
+            a wide variety of types of input data and control widgets are available, depending on the device and 
+            <a href="https://developer.mozilla.org/en-US/docs/Glossary/User_agent">user agent</a>
+            . The input element is one of the most powerful and complex in all of HTML due to the sheer number of combinations of input types and attributes.
+
+        <code> 
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button">type="button"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox">type="checkbox"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color"> type="color"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date">type="date"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local">type="datetime-local"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email">type="email"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file">type="file"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden">type="hidden"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image">type="image"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month">type="month"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number">type="number"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password">type="password"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio">type="radio"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range">type="range"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset">type="reset"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search">type="search"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/sumit">type="sumit"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel">type="tel"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text">type="text"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time">type="time"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url">type="url"</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/week">type="week"</a>
+        </code>
+            </article>
+        </section>
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <article>
+                <ul>
+                    <li>
+                        All the documentation in this page is taken form
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <!-- <section class="main-section" id="finish"></section>  -->
+        
+    </main> 
+</body>
+</html>
